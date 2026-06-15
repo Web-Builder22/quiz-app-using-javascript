@@ -1,0 +1,42 @@
+body{
+  color: #90EE90;
+  background-color:aquamarine;
+
+}
+
+
+h1{
+    color:blue;
+    text-align: center;
+}
+#class{
+    background-color:green;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+   display: block;
+    margin: 0 auto;
+
+}
+#first{
+    background-color:green;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+   display: block;
+    margin: 0 auto;
+}
+#option-btn{
+    background-color:green;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+   display: block;
+    margin: 0 auto;
+}
