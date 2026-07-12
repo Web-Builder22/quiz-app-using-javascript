@@ -1,18 +1,131 @@
 <!DOCTYPE html>
-<html lang="urdu">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUIZ APP</title>
-    <link rel="stylesheet" href="sty.css">
+    <title>Programming Quiz App</title>
+
+    <link rel="stylesheet" href="bsty.css">
 </head>
+
+
 <body>
-    <h1>QUIZ REGARDING JAVASCRIPT</h1>
-<button id="class">START THE QUIZ</button> 
-   
+
+    <div class="main-content">
+
+
+        <!-- Name Section -->
+        <div class="name-box">
+
+            <input 
+                type="text" 
+                id="username" 
+                placeholder="Enter your name"
+            >
+
+            <button id="startBtn">
+                Start Quiz
+            </button>
+
+        </div>
 
 
 
-<script src="scr.js"></script>
+        <!-- Username Display -->
+        <h2 id="displayName"></h2>
+
+
+
+
+        <!-- Main Container -->
+        <div class="container">
+
+
+            <h1>
+                Programming Quiz App
+            </h1>
+
+
+            <p class="subtitle">
+                Choose a topic and test your programming knowledge.
+            </p>
+
+
+
+            <!-- Topics -->
+            <div class="topics">
+
+
+                <button class="topic-btn" id="cpp">
+                    💻 C++ Programming
+                </button>
+
+
+                <button class="topic-btn" id="java">
+                    ☕ Java Programming
+                </button>
+
+
+                <button class="topic-btn" id="web">
+                    🌐 HTML, CSS & JavaScript
+                </button>
+
+
+                <button class="topic-btn" id="dsa">
+                    📚 Data Structures & Algorithms
+                </button>
+
+
+            </div>
+
+
+
+
+
+            <!-- Quiz Section -->
+
+            <div id="quiz" hidden>
+
+
+                <h2 class="question">
+                    
+                </h2>
+
+
+
+                <div class="option">
+
+                </div>
+
+
+
+                <button class="next">
+                    Next
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+
+  
+
+
+
+    <script src="scr.js"></script>
+
+
 </body>
+
 </html>
